@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 121px;
+    width: 100vw;
+    display: flex;
+}
+
+.navbar{
+    height: 73px;
+    width: 1016px;
+    margin: 24px 463px 24px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo img{
+    height: 60px;
+    width: 60px;
+    padding: 6px 10px;
+
+}
+
+
+.links{
+    margin-right: 18px;
+    font-size: 11px;
+    padding: 24px 0;
+    font-family: 'Roboto', sans-serif;
+    color: #262521;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.home{
+    color: #4b318c;
+}
+
+.links:hover{
+    color: #4b318c;
+    transition: 0.3s;
+    transition: ease-in-out;
+}
+
+.icons{
+    display: flex;
+    width: 422px;
+    height: 38px;
+    margin: 41px 40px 41px 0px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.nav-icons{
+    height: 25px;
+    width: 15px;
+    align-self: flex-end;
+    margin-right: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.home-banner{
+    height: 848.317px ;
+    width: 100vw;
+    background-color: #616161;
+    background-image: url(./home\ banner.jpg);
+    background-size: 150%;   
+    background-position: 50%;
+    position: relative;
+    background-blend-mode:soft-light;
+}
+
+.content1{
+    height: 156px;
+    width: 726px;
+    align-items: center;
+    position: absolute;
+    margin: 293px 396px;
+    text-align: center;
+}
+
+.content1 h1{
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 50px;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    /* letter-spacing: 0.42px;
+    line-height: 25.2px; */
+}
+
+.content1 p{
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 21px;
+    padding: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* letter-spacing: 0.95px;
+    line-height: 29.4px; */
+}
+
+
+.companies{
+    position: absolute;
+    width: 1453px;
+    height: 129px;
+    margin: 615px 33px 100px 33px;
+    padding: 17px;
+}
+
+.company-logo{
+    height: 153px;
+    width: 1419px;
+}
+
+.heading{
+    height: 159px;
+    margin: 100px 33px 0px 33px;
+}
+
+.why{
+    height: 60px;
+    width:692px;
+    margin-left: 380px;
+    margin-bottom: 100px;
+}
+
+.heading h1{
+    color: #2b2b2b;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+
+.icon{
+    height: 451px;
+    margin: 0px 33px;
+    display: flex;
+}
+
+.icon1{
+    margin-left: 363px;
+    width: 242px;
+    height: 451px;
+    padding: 17px;
+    transition: ease-in;
+}
+
+.icon2{
+    width: 242px;
+    height: 451px;
+    padding: 17px;
+    transition: ease-in;
+}
+
+.icon3{
+    margin-right: 363px;
+    width: 242px;
+    height: 451px;
+    padding: 17px;
+    transition: ease-in;
+}
+
+.icon img{
+    height: 208px;
+    width: 208px;
+}
+
+.icon img:start{
+    transition: ease-in;
+    transition-duration: 1.5s;
+}
+
+.h3{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 10px;
+    letter-spacing: 1.8px;
+    color: #4b318c;
+}
+
+.icon-para{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25.2px;
+    letter-spacing: 0.42px;
+    color: #616161;
+    padding-top: 14px;
+    font-weight: 300;
+}
+
+.space{
+    height: 105px;
+    margin: 0px 33px;
+}
+
+hr{
+    margin: 92px 380px;
+    color: #cccccc ;
+}
+
+.journey{
+    height: 176px;
+    margin: 0px 33px;
+    padding: 17px;
+}
+
+.journey-heading{
+    margin-left: 363px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #2b2b2b;
+}
+
+
+.journey-content{
+    height: 677px;
+    margin: 0px 33px;
+}
+
+.actual{
+    height: 677px;
+    width: 726px;
+    margin: 0px 363px;
+}
+
+.actual1{
+    height: 269px;
+    width: 726px;
+    padding: 17px;
+    margin-bottom: 100px;
+}
+
+.actual2{
+    height: 326px;
+    width: 726px;
+    padding: 17px;
+}
+
+.journey-img{
+    height: 235px;
+    width: 329px;
+    float: left;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 17px;
+    font-size: 21px;
+}
+
+.people{
+    height: 1389px;
+    width: 1453px;
+    margin: 0px 33px;
+    padding: 17px;
+}
+
+.people h1{
+    margin:17px 380px 100px 380px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+}
+
+.person1, .person2, .person3{
+    padding: 17px;
+    margin: 0px 363px 100px 363px;
+}
+
+.person1 img, .person3 img{
+    height: 309px;
+    width: 208px;
+    float: left;
+    padding-right: 34px;
+}
+
+.person2{
+    text-align: right;
+
+}
+
+.person2 img{
+    height: 326px;
+    width: 208px;
+    float: right;
+    padding-left: 34px;
+}
+
+.footer-banner{
+    height: 421px;
+    background-image: url(./footer\ banner.jpeg);
+    background-position:center  ;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.footer-content{
+    height:221px;
+    margin:100px 50px;
+    padding: 17px;
+    align-items: center;
+}
+
+.footer-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 570px;
+    height: 80px;
+    width: 200px;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color:#2b2b2b;
+}   
+
+footer{
+    height: 200px;
+    background-color: rgba(202, 197, 197, 0.17);
+    color:#2b2b2b;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+footer p{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    position: absolute;
+    margin-left: 700px;
+    text-align: center;
+    font-size: 15px;
+}
+
+footer img{
+    height: 20px;
+    width: 15px;
+}
